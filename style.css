@@ -217,6 +217,7 @@ section h2 {
     grid-template-columns: 380px 1fr;
     align-items: center;
     gap: 100px;
+    text: center;
 }
 
 /* FOTO ABOUT ME */
@@ -1337,4 +1338,5 @@ footer {
     .project-gallery h3 {
         font-size: 21px !important;
     }
+
 }
