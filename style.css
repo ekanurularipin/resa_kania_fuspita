@@ -212,12 +212,13 @@ section h2 {
 
 .about-content {
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto; /* Posisi wadah berada di tengah layar */
     display: grid;
     grid-template-columns: 380px 1fr;
     align-items: center;
+    justify-content: center;
     gap: 100px;
-    text: center;
+    text-align: justify; /* Membuat teks menjadi rata kanan-kiri */
 }
 
 /* FOTO ABOUT ME */
@@ -1340,3 +1341,4 @@ footer {
     }
 
 }
+
