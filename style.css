@@ -211,14 +211,10 @@ section h2 {
 }
 
 .about-content {
-    max-width: 1200px;
-    margin: 0 auto; /* Posisi wadah berada di tengah layar */
-    display: grid;
-    grid-template-columns: 380px 1fr;
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
-    text-align: justify; /* Membuat teks menjadi rata kanan-kiri */
+    max-width: 850px; /* Samakan dengan .about-text agar sejajar & di tengah */
+    margin: 0 auto; /* Posisi konten tepat di tengah layar */
+    padding: 0 24px; /* Jarak aman di layar kecil / HP */
+    text-align: justify; /* Membuat teks rata kanan-kiri */
 }
 
 /* FOTO ABOUT ME */
@@ -1341,4 +1337,5 @@ footer {
     }
 
 }
+
 
